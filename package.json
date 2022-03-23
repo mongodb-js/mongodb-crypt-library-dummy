@@ -1,6 +1,6 @@
 {
   "name": "mongodb-csfle-library-dummy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dummy MongoDB CSFLE shared library which only implements version helpers",
   "main": "index.js",
   "scripts": {
