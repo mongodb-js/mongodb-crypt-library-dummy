@@ -19,7 +19,7 @@
   "bugs": "https://github.com/mongodb-js/mongodb-csfle-library-dummy/issues",
   "typings": "index.d.ts",
   "files": [
-    "binding.cc",
+    "dummy.c",
     "binding.gyp",
     "index.d.ts",
     "index.js",
