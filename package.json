@@ -1,0 +1,31 @@
+{
+  "name": "mongodb-csfle-library-dummy",
+  "version": "1.0.0-beta.0",
+  "description": "Dummy MongoDB CSFLE shared library which only implements version helpers",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "sh ./test.sh"
+  },
+  "author": "Anna Henningsen <anna@addaleax.net>",
+  "gypfile": true,
+  "dependencies": {},
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/mongodb-js/mongodb-csfle-library-dummy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mongodb-js/mongodb-csfle-library-dummy.git"
+  },
+  "bugs": "https://github.com/mongodb-js/mongodb-csfle-library-dummy/issues",
+  "typings": "index.d.ts",
+  "files": [
+    "binding.cc",
+    "binding.gyp",
+    "index.d.ts",
+    "index.js",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "mongodb-csfle-library-version": "^1.0.2"
+  }
+}
