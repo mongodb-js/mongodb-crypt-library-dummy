@@ -15,5 +15,15 @@ uint64_t MONGO_API_CALL mongo_csfle_v1_get_version() {
 
 MONGO_API_EXPORT
 const char* MONGO_API_CALL mongo_csfle_v1_get_version_str() {
-  return "mongo_csfle_v1-dummy";
+  return "mongo_crypt_v1-dummy";
+}
+
+MONGO_API_EXPORT
+uint64_t MONGO_API_CALL mongo_crypt_v1_get_version() {
+  return 0x0001000000000000ULL;
+}
+
+MONGO_API_EXPORT
+const char* MONGO_API_CALL mongo_crypt_v1_get_version_str() {
+  return "mongo_crypt_v1-dummy";
 }

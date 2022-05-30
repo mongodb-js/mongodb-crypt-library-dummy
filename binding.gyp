@@ -1,6 +1,6 @@
 {
   'targets': [{
-    'target_name': 'mongodb_csfle_library_dummy',
+    'target_name': 'mongodb_crypt_library_dummy',
     'sources': [ 'dummy.c' ]
   }]
 }
