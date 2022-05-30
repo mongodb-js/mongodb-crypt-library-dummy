@@ -1,6 +1,6 @@
 {
   "name": "mongodb-crypt-library-dummy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dummy MongoDB Crypt shared library which only implements version helpers",
   "main": "index.js",
   "scripts": {
